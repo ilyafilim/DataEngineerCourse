@@ -1,0 +1,19 @@
+# curl -H 'User-Agent: api-test-agent' 'https://api.hh.ru/vacancies'
+GET https://api.hh.ru/vacancies
+User-Agent: api-test-agent
+
+###
+
+GET https://hh.ru/applicant/vacancy_response?vacancyId=36889891
+#Accept: application/javascript
+#User-Agent: MyApp/1.0 (my-app-feedback@example.com)
+
+###
+GET https://api.hh.ru/vacancies?text=Data+engineer&per_page=100&page=2
+Accept: application/json
+
+
+###
+
+https://hh.ru/search/vacancy?st=searchVacancy&text=Data+engineer&salary=&currency_code=RUR&experience=doesNotMatter&order_by=publication_time&search_period=&items_on_page=100&no_magic=true&L_save_area=true&customDomain=1
+User-Agent: api-test-agent

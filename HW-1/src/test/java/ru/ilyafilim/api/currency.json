@@ -1,0 +1,84 @@
+{
+  "currency": [
+    {
+      "code": "AZN",
+      "abbr": "AZN",
+      "name": "Манаты",
+      "default": false,
+      "rate": 0.024719,
+      "in_use": false
+    },
+    {
+      "code": "BYR",
+      "abbr": "бел. руб.",
+      "name": "Белорусские рубли",
+      "default": false,
+      "rate": 0.034692,
+      "in_use": false
+    },
+    {
+      "code": "EUR",
+      "abbr": "EUR",
+      "name": "Евро",
+      "default": false,
+      "rate": 0.012826,
+      "in_use": true
+    },
+    {
+      "code": "GEL",
+      "abbr": "GEL",
+      "name": "Грузинский лари",
+      "default": false,
+      "rate": 0.0344,
+      "in_use": false
+    },
+    {
+      "code": "KGS",
+      "abbr": "KGS",
+      "name": "Киргизский сом",
+      "default": false,
+      "rate": 1.077156,
+      "in_use": false
+    },
+    {
+      "code": "KZT",
+      "abbr": "KZT",
+      "name": "Тенге",
+      "default": false,
+      "rate": 5.835565,
+      "in_use": false
+    },
+    {
+      "code": "RUR",
+      "abbr": "руб.",
+      "name": "Рубли",
+      "default": true,
+      "rate": 1.0,
+      "in_use": true
+    },
+    {
+      "code": "UAH",
+      "abbr": "грн.",
+      "name": "Гривны",
+      "default": false,
+      "rate": 0.387637,
+      "in_use": false
+    },
+    {
+      "code": "USD",
+      "abbr": "USD",
+      "name": "Доллары",
+      "default": false,
+      "rate": 0.01457,
+      "in_use": true
+    },
+    {
+      "code": "UZS",
+      "abbr": "сум",
+      "name": "Узбекский сум",
+      "default": false,
+      "rate": 147.875838,
+      "in_use": false
+    }
+  ]
+}

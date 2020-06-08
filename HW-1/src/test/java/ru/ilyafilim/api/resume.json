@@ -1,0 +1,184 @@
+{
+  "key_skills": [
+    {
+      "name": "Финансовый анализ"
+    },
+    {
+      "name": "Аудит"
+    },
+    {
+      "name": "Внешний финансовый аудит"
+    },
+    {
+      "name": "Внутренний финансовый аудит"
+    },
+    {
+      "name": "Инвестиционный анализ"
+    },
+    {
+      "name": "Анализ инвестиционных проектов"
+    },
+    {
+      "name": "Due Diligence"
+    },
+    {
+      "name": "Financial Analysis"
+    },
+    {
+      "name": "Audit"
+    },
+    {
+      "name": "ФДД"
+    },
+    {
+      "name": "FDD"
+    },
+    {
+      "name": "Financial Due Diligence"
+    },
+    {
+      "name": "Инвестиционное планирование"
+    },
+    {
+      "name": "Бухгалтерский учет"
+    }
+  ],
+  "code": null,
+  "insider_interview": null,
+  "hidden": false,
+  "description": "<p><strong>ALTHAUS Group <\/strong>is a leading Russian advisory firm with a team of 150 professionals in finance, tax, law, valuation, and engineering. ALTHAUS Group is an exclusive partner of WTS Global network in Russia.<\/p> <p>ALTHAUS Group mission is to breed new leaders of the Russian economy by developing young talents both professionally and personally.<\/p> <p>Our motto is \u201cAhead of progress\u201d as we strive to be at the forefront of all innovation in economic, legal and technological fields. We are always open to using new approaches to organizing our work; we are ready for the new challenges our clients have to face due to the extremely complicated regulation in most industries, digitalization of the economy, and blurring of the country borders in business.<\/p> <p><strong>The Role includes the following responsibilities:<\/strong><\/p> <ul> <li>Leading financial due diligence projects (coordination of preparing data books and reports);<\/li> <li>Managing project teams;<\/li> <li>Communicating with clients, conducting detailed financial analysis, and reporting on findings;<\/li> <li>Preparing presentations and proposals;<\/li> <li>Driving business development activities, taking part in client meetings;<\/li> <li>Conducting internal trainings<\/li> <\/ul> <p><strong>What we are looking for:<\/strong><\/p> <ul> <li>5+ years&#39; experience in financial due diligence (2+ big4 experience is preferred) is a must;<\/li> <li>Experience in consulting companies like Big 4 or others financial consulting companies is an advantage;<\/li> <li>Extensive experience in project management including planning, organizing, coordinating, and managing staff towards the successful completion of a project;<\/li> <li>Bachelor&#39;s degree in accounting, finance or related area required;<\/li> <li>Knowledge of Russian accounting standards and IFRS is a must;<\/li> <li>Strong verbal and written communication skills;<\/li> <li>English \u2013 advanced level (business writing skills);<\/li> <li>Proficiency with 1C, Microsoft Office, primarily Excel;<\/li> <li>ACCA/CPA/CFA license is an advantage.<\/li> <\/ul> <p><strong>What we offer:<\/strong><\/p> <ul> <li>Open and clear career track;<\/li> <li>Unlimited opportunity to grow professionally;<\/li> <li>Working in a friendly team of top-notch experts;<\/li> <li>Convenient office location (m. Tekhnopark);<\/li> <li>Salary is discussed with a successful candidate individually<\/li> <\/ul>",
+  "created_at": "2020-06-05T10:05:02+0300",
+  "salary": null,
+  "type": {
+    "name": "Открытая",
+    "id": "open"
+  },
+  "experience": {
+    "name": "От 3 до 6 лет",
+    "id": "between3And6"
+  },
+  "apply_alternate_url": "https://hh.ru/applicant/vacancy_response?vacancyId=37093343",
+  "archived": false,
+  "premium": false,
+  "suitable_resumes_url": null,
+  "driver_license_types": [],
+  "billing_type": {
+    "name": "Стандарт плюс",
+    "id": "standard_plus"
+  },
+  "employer": {
+    "trusted": true,
+    "logo_urls": {
+      "original": "https://hhcdn.ru/employer-logo-original/145507.jpg",
+      "90": "https://hhcdn.ru/employer-logo/1070204.jpeg",
+      "240": "https://hhcdn.ru/employer-logo/1070205.jpeg"
+    },
+    "vacancies_url": "https://api.hh.ru/vacancies?employer_id=730764&host=hh.ru",
+    "name": "ALTHAUS Group",
+    "id": "730764",
+    "alternate_url": "https://hh.ru/employer/730764",
+    "url": "https://api.hh.ru/employers/730764?host=hh.ru"
+  },
+  "id": "37093343",
+  "department": null,
+  "published_at": "2020-06-05T10:05:02+0300",
+  "area": {
+    "name": "Москва",
+    "id": "1",
+    "url": "https://api.hh.ru/areas/1?host=hh.ru"
+  },
+  "vacancy_constructor_template": null,
+  "branded_description": null,
+  "address": {
+    "lng": 37.650864,
+    "city": "Москва",
+    "street": "Проектируемый проезд № 4062",
+    "metro": null,
+    "description": null,
+    "raw": "Москва, Проектируемый проезд № 4062, 8",
+    "metro_stations": [],
+    "building": "8",
+    "lat": 55.68704
+  },
+  "specializations": [
+    {
+      "name": "Финансовый мониторинг",
+      "id": "5.444",
+      "profarea_id": "5",
+      "profarea_name": "Банки, инвестиции, лизинг"
+    },
+    {
+      "name": "Проектное финансирование",
+      "id": "5.234",
+      "profarea_id": "5",
+      "profarea_name": "Банки, инвестиции, лизинг"
+    },
+    {
+      "name": "Риски: финансовые",
+      "id": "5.458",
+      "profarea_id": "5",
+      "profarea_name": "Банки, инвестиции, лизинг"
+    },
+    {
+      "name": "Аудит",
+      "id": "2.33",
+      "profarea_id": "2",
+      "profarea_name": "Бухгалтерия, управленческий учет, финансы предприятия"
+    },
+    {
+      "name": "Финансовый анализ",
+      "id": "2.342",
+      "profarea_id": "2",
+      "profarea_name": "Бухгалтерия, управленческий учет, финансы предприятия"
+    },
+    {
+      "name": "Корпоративные финансы",
+      "id": "12.122",
+      "profarea_id": "12",
+      "profarea_name": "Консультирование"
+    }
+  ],
+  "test": null,
+  "quick_responses_allowed": false,
+  "accept_handicapped": false,
+  "allow_messages": true,
+  "employment": {
+    "name": "Полная занятость",
+    "id": "full"
+  },
+  "negotiations_url": null,
+  "schedule": {
+    "name": "Полный день",
+    "id": "fullDay"
+  },
+  "accept_kids": false,
+  "site": {
+    "name": "hh.ru",
+    "id": "hh"
+  },
+  "has_test": false,
+  "name": "Financial Due Diligence (FDD) Manager",
+  "relations": [],
+  "response_letter_required": false,
+  "alternate_url": "https://hh.ru/vacancy/37093343",
+  "contacts": {
+    "name": "Садикова Алефтина",
+    "phones": [
+      {
+        "number": "6782298",
+        "country": "7",
+        "city": "499",
+        "comment": "доб 310"
+      },
+      {
+        "number": "9421721",
+        "country": "7",
+        "city": "929",
+        "comment": null
+      }
+    ],
+    "email": "asadikova@althausgroup.ru"
+  },
+  "accept_incomplete_resumes": false,
+  "response_url": null
+}
