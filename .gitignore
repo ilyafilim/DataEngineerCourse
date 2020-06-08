@@ -1,2 +1,4 @@
 # Project exclude paths
-/HW-1/target/
+*/target/
+/.idea/
+*.iml

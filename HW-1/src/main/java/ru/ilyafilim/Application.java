@@ -19,6 +19,8 @@ public class Application {
         List<Integer> salaryList = new ArrayList<>();
         List<String> skillsList = new ArrayList<>();
 
+        Set<String> spec = new HashSet<>();
+
         String url = "https://api.hh.ru/vacancies?text=Data+engineer&per_page=100&page=";
 
         int c = 0;
@@ -28,10 +30,15 @@ public class Application {
             if (i != 0) request = getJSONRequest(url + (i + 1));
             JSONArray jsonArray = request.getJSONArray("items");
             for (int a = 0; a < jsonArray.length(); a++) {
-                JSONObject vacancy = jsonArray.getJSONObject(a);
+                JSONObject vacancy = getJSONRequest(jsonArray.getJSONObject(a).getString("url"));
+                JSONArray specializations = vacancy.getJSONArray("specializations");
+                for (int j = 0; j < specializations.length(); j++) {
+                    spec.add(specializations.getJSONObject(j).getString("profarea_name"));
+                }
+
                 Object salary = vacancy.get("salary");
                 salaryList.add(getSalary(salary));
-                JSONArray skills = getJSONRequest(vacancy.getString("url")).getJSONArray("key_skills");
+                JSONArray skills = vacancy.getJSONArray("key_skills");
                 for (int j = 0; j < skills.length(); j++) {
                     skillsList.add(skills.getJSONObject(j).getString("name"));
                 }
@@ -41,15 +48,17 @@ public class Application {
         }
         System.out.println("count = " + c);
         System.out.println("not null salaries: " + salaryList.stream().filter(Objects::nonNull).count());
-        System.out.println(salaryList.stream().filter(Objects::nonNull).mapToInt(Integer::intValue).max());
-        System.out.println(salaryList.stream().filter(Objects::nonNull).mapToInt(Integer::intValue).min());
-        System.out.println(salaryList.stream().filter(Objects::nonNull).mapToInt(Integer::intValue).average());
-
+        System.out.println("max: " + salaryList.stream().filter(Objects::nonNull).mapToInt(Integer::intValue).max());
+        System.out.println("min: " + salaryList.stream().filter(Objects::nonNull).mapToInt(Integer::intValue).min());
+        System.out.println("ave: " + salaryList.stream().filter(Objects::nonNull).mapToInt(Integer::intValue).average());
+        System.out.println();
         Map<String, Long> stringLongMap = skillsList.stream()
                 .collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         stringLongMap.entrySet().stream()
                 .sorted(Map.Entry.comparingByValue(Comparator.reverseOrder()))
                 .forEach(System.out::println);
+        System.out.println();
+        spec.forEach(System.out::println);
         //System.out.println(response.toString());
 
     }
